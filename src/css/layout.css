@@ -5,7 +5,7 @@
 }
 
 .title {
-  font-size: calc(24*var(--rem-ratio));
+  font-size: calc(24 * var(--rem-ratio));
   letter-spacing: var(--tracking-relaxed);
   color: var(--color-grayscale-200);
 }
@@ -19,7 +19,7 @@
 }
 
 .l-content__text {
-  font-size: calc(15*var(--rem-ratio));
+  font-size: calc(15 * var(--rem-ratio));
   font-family: var(--font-lucida);
 }
 
@@ -31,7 +31,7 @@
   inline-size: fit-content;
   font-family: var(--font-lucida);
   font-weight: var(--font-bold);
-  font-size: calc(30*var(--rem-ratio));
+  font-size: calc(30 * var(--rem-ratio));
   color: var(--color-grayscale-200);
 }
 

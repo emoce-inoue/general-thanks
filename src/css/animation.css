@@ -6,5 +6,7 @@
 .js-load.js-load--loaded {
   opacity: 1;
   translate: 0;
-  transition: opacity 1s ease .3s, translate 1s ease .3s;
+  transition:
+    opacity 1s ease 0.3s,
+    translate 1s ease 0.3s;
 }

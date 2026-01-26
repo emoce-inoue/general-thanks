@@ -11,11 +11,8 @@
 })();
 
 document.addEventListener('DOMContentLoaded', () => {
-  const loadItems = document.querySelectorAll('.js-load');
-
-  loadItems.forEach((item) => {
-    item.classList.add('js-load--loaded');
-  });
+  const loadItem = document.querySelector('.js-load');
+  loadItem.classList.add('js-load--loaded');
 
   const observerCallback = (entries) => {
     entries.forEach((entry) => {

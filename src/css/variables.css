@@ -1,7 +1,7 @@
 :root {
   /* font */
-  --font-hiragino: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Yu Gothic Medium', meiryo, 'sans-serif';
-  --font-lucida: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Hind", meiryo, 'sans-serif';
+  --font-hiragino: 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'Yu Gothic Medium', meiryo, 'sans-serif';
+  --font-lucida: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'Hind', meiryo, 'sans-serif';
   --base-text-unit: 16;
   --rem-ratio: calc(1rem / var(--base-text-unit));
   --font-normal: 400;
