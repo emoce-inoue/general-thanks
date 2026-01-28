@@ -1,6 +1,7 @@
 :root {
   /* font */
-  --font-sans: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', meiryo, sans-serif;
+  --font-hiragino: 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'Yu Gothic Medium', meiryo, 'sans-serif';
+  --font-lucida: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'Hind', meiryo, 'sans-serif';
   --base-text-unit: 16;
   --rem-ratio: calc(1rem / var(--base-text-unit));
   --font-normal: 400;
@@ -32,9 +33,12 @@
 
   /* color */
   --color-grayscale-0: #fff;
+  --color-grayscale-100: #ccc;
+  --color-grayscale-200: #8a8a8a;
+  --color-grayscale-300: #636363;
   --color-grayscale-1000: #000;
   --background-base: var(--color-grayscale-0);
-  --font-base: var(--color-grayscale-100);
+  --font-base: var(--color-grayscale-300);
   --underline-base: color-mix(in srgb, currentcolor, transparent 40%);
 
   /* z-index */

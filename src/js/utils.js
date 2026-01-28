@@ -11,6 +11,9 @@
 })();
 
 document.addEventListener('DOMContentLoaded', () => {
+  const loadItem = document.querySelector('.js-load');
+  loadItem.classList.add('js-load--loaded');
+
   const observerCallback = (entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
